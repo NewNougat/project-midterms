@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .background-element {
+        /* Set the background image URL */
+        background-image: url("/img/p22.jpg");
+
+        /* Set background properties (optional) */
+        background-repeat: no-repeat;
+        background-size: cover; /* Adjust as needed */
+        background-position: center; /* Adjust as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d-flex" style="height: 100vh">
+      <nav
+        class="navbar bg-body d-md-flex align-items-md-start shadow bg-body-tertiary rounded"
+        style="width: 20%; height: 100vh"
+      >
+        <div class="container-fluid d-md-flex flex-md-column align-items-start">
+          <a href="index.html" class="m-3 nav-link active"
+            ><i class="fa-solid fa-house"></i>
+            <div class="d-none d-sm-block d-md-flex d-lg-flex">Home</div></a
+          >
+          <a href="contact.html" class="m-3 nav-link"
+            ><i class="fa-solid fa-address-book"></i>
+            <div class="d-none d-sm-block">Contact</div></a
+          >
+          <a href="about.html" class="m-3 nav-link"
+            ><i class="fa-solid fa-question"></i>
+            <div class="d-none d-sm-block">About</div></a
+          >
+          <a href="news.html" class="m-3 nav-link"
+            ><i class="fa-solid fa-paperclip"></i>
+            <div class="d-none d-sm-block">News</div></a
+          >
+          <div class="dropdown">
+            <button
+              class="btn btn-transparent dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-user"></i>
+              <div class="d-none d-sm-block">Profiles</div>
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="profile.html"
+                  ><i class="fa-solid fa-user"></i> Profile</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="video.html"
+                  ><i class="fa-solid fa-video"></i> Videos</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        style="width: 100%"
+        class="d-flex flex-column justify-content-between"
+      >
+        <div class="container-fluid shadow bg-body-tertiary rounded">
+          <p class="lead text-center align-items-center p-3">
+            Crafting My Digital Identity
+          </p>
+        </div>
+        <div
+          style="height: 90vh"
+          class="container-fluid bg-body-secondary background-element overflow-auto"
+        >
+          <div class="">
+            <div class="position-relative">
+              <h4 class="mt-4 text-light">
+                A Glimpse into My Digital Universe
+              </h4>
+              <p class="lead text-light">
+                Learn about my experiences, aspirations, and the drive that
+                fuels my journey in the digital domain. Explore my projects and
+                endeavors, witness the evolution of my skills and creativity.
+              </p>
+              <div class="position-absolute top-100 start-50 translate-end">
+                <img
+                  src="/img/meteor.png"
+                  style="width: 300px; height: 300px"
+                />
+              </div>
+            </div>
+            <div class="d-sm-flex flex-sm-column flex-md-row gap-2">
+              <div class="card text-bg-light mb-3" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">Chirp Starter</h5>
+                  <p class="card-text">
+                    In my digital realm, I've crafted the
+                    <strong>Chirp Starter</strong>—a responsive landing page
+                    inspired by challenges from Frontend Mentor.io. Frontend
+                    Mentor.io, a hub for growth, presents web design challenges
+                    and projects that have honed my coding skills and showcased
+                    my web development expertise.
+                  </p>
+                  <a
+                    href="https://newnougat.github.io/Chirp-Starter-Files/"
+                    class="btn btn-dark"
+                    >Vist this world!</a
+                  >
+                </div>
+              </div>
+              <div class="card text-bg-light mb-3" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">Unifeed starter</h5>
+                  <p class="card-text">
+                    In the heart of my digital realm lies the
+                    <strong>Unifeed starter</strong>
+                    template—a fully responsive landing page crafted using HTML
+                    and CSS, all thanks to the creative canvas provided by
+                    Codewell.io. Codewell.io, a sanctum of coding challenges and
+                    projects, has been enhancing my coding skills.
+                  </p>
+                  <a
+                    href="https://newnougat.github.io/Unifeed-Blog-Template-Starter/"
+                    class="btn btn-dark"
+                    >Visit this realm!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid bg-dark" style="z-index: 1">
+          <p class="lead text-light">&copy; Mark Jeriel Cabalbag</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
